@@ -22,30 +22,30 @@ import uploadImage from "./lib/uploadImage.js";
 //cambia los números que sean propietarios
 global.owner = [
 /*╔══════════════════╗*/
-/*║ ❒*/ ["5218442286089", "🔰𝐃𝐈𝐄𝐆𝐎-𝐂𝐑𝐄𝐀𝐃𝐎𝐑🔰", true],
-/*║ ❒*/ ["51993138466"],
-/*║ ❒*/ ["573184314110"],
-/*║ ❒*/ ["50246028932"],
-/*║ ❒*/ ["59895555511"],
-/*║ ❒*/ ["584125778026"],
-/*║ ❒*/ ["595986674310"],
-/*║ ❒*/ ["51936767238"],
-/*║ ❒*/ ["50495625729"],
-/*║ ❒*/ ["593968585383"],
-/*║ ❒*/ ["5219996125657"],
-/*║ ❒*/ ["595992611272"],
-/*║ ❒*/ ["5493458437331"],
-/*║ ❒*/ ["51957041866"],
-/*║ ❒*/ ["5492266466080"],  
-/*║ ❒*/ ["5218442114446"], 
-/*║ ❒*/ ["595975740803"], 
-/*║ ❒*/ ["593980586516"], 
-/*║ ❒*/ ["5492266613038"] 
+/*║ ❒*/ ["254719316198", "🔰𝐃𝐈𝐄𝐆𝐎-𝐂𝐑𝐄𝐀𝐃𝐎𝐑🔰", true],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],
+/*║ ❒*/ ["254719316198"],  
+/*║ ❒*/ ["254719316198"], 
+/*║ ❒*/ ["254719316198"], 
+/*║ ❒*/ ["254719316198"], 
+/*║ ❒*/ ["254719316198"] 
 /*╚══════════════════╝*/                     ];
 /*┌--------------*/
-/*├➢*/ global.suittag = ["593959425714"];
-/*├➢*/ global.mods = ["584125778026"];
-/*├➢*/ global.prems = ["595986674310"];
+/*├➢*/ global.suittag = ["254719316198"];
+/*├➢*/ global.mods = ["254719316198"];
+/*├➢*/ global.prems = ["254719316198"];
 /*└────ׂ─ׂ─ׂ─ׂ───*/
 const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
 global.prefix = new RegExp(
@@ -59,7 +59,7 @@ global.openai_org_id = "org-3";
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 /* NO BORRAR NADA DE AQUÍ ABAJO*/
-global.lenguajeGB = es;
+global.lenguajeGB = en;
 global.memexd = memexd;
 global.cheerio = cheerio;
 global.uploadImage = uploadImage;
@@ -80,8 +80,8 @@ global.moment = moment;
 /*-----------------------*/
 
 /* ______________________________________________ */
-global.creadorname = "𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
-global.creatorname = "𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
+global.creadorname = "Gabby";
+global.creatorname = "Gabby";
 global.library = "BAILEYS-MD";
 global.vs = "V10";
 global.version = vs;
@@ -95,11 +95,11 @@ global.mes = d.toLocaleDateString("es", {month: "long"});
 global.año = d.toLocaleDateString("es", {year: "numeric"});
 global.tiempo = d.toLocaleString("en-US", {hour: "numeric", minute: "numeric", second: "numeric", hour12: true});
 //------------- Sticker WM -----------
-global.packname = `𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂`;
-global.author = `© 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭`;
+global.packname = `Gabby`;
+global.author = `Gabby`;
 //_______________
-global.wm = "𝗦𝗵𝗮𝗱𝗼𝘄-𝗕𝗼𝘁 | 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
-global.db3t = `© 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭 `;
+global.wm = "Gabby | Bot";
+global.db3t = `Gabby - 𝐁𝐨𝐭 `;
 global.wm3 = db3t;
 global.codex = `Diego-Ofc`;
 global.igfg = "𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭";
